@@ -175,6 +175,7 @@ section {
     position: absolute;
     color: hsl(101, 24%, 25%);
     font-size: 100px;
+    padding: 20px;
 }
 
 @keyframes shake {
