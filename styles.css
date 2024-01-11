@@ -109,7 +109,7 @@ section {
     width: 500px; /* Adjust size as needed */
     height: 500px; /* Adjust size as needed */
     border-radius: 50%; /* Make it a circle */
-    background-color: #59405C;
+    background-color: hsl(101, 24%, 25%);
     position: absolute;
     top: 50%; /* Adjust position from top */
     right: 5%; /* Move to the middle right */
