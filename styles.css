@@ -170,9 +170,11 @@ section {
 }
 
 .home_txt{
+    font-family: sans-serif;
+    font-weight: bold;
     position: absolute;
     color: hsl(101, 24%, 25%);
-    font-size: 30%;
+    font-size: 100px;
 }
 
 @keyframes shake {
