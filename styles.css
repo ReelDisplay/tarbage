@@ -170,6 +170,7 @@ section {
 }
 
 .home_txt{
+    position: absolute;
     color: hsl(101, 24%, 25%);
     font-size: 30%;
 }
