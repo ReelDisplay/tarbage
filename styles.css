@@ -169,6 +169,11 @@ section {
     margin-bottom: 15px;
 }
 
+.home_txt{
+    color: hsl(101, 24%, 25%);
+    font-size: 30%;
+}
+
 @keyframes shake {
     0%, 100% {
         transform: translateX(0);
