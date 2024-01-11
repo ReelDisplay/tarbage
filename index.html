@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarbage™ - Garbage the Better Way</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Inside the #home section -->
+    <section id="home">
+        <header>
+            <a href="#"><img src="./image-removebg-preview.png" alt=""></a>
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Our Problem</a></li>
+                <li><a href="#product">Solution</a></li>
+                <li><a href="#partners">Partners</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </header>
+        <div class="circle" onclick="location.href='#about'">
+            <img src="./Tarbage_GarbageBin_.png" alt="Garbage Bin">
+        </div> <!-- Added circle -->
+    </section>
+
+    <section id="about"></section>
+    <section id="product"></section>
+    <section id="partners"></section>
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>Feel free to get in touch with us!</p>
+
+            <div class="contact-info">
+                <div class="social-links">
+                    <a href="#" class="social-icon"><img src="social-icon-facebook.png" alt="Facebook"></a>
+                    <a href="#" class="social-icon"><img src="social-icon-twitter.png" alt="Twitter"></a>
+                    <a href="#" class="social-icon"><img src="social-icon-instagram.png" alt="Instagram"></a>
+                </div>
+
+                <div class="contact-details">
+                    <p>Email: info@tarbage.com</p>
+                    <p>Address: 123 Trash Lane, Garbage City</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add the script tag for the JavaScript -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Allow scrolling by removing the "overflow: hidden" property after the document is loaded
+            document.body.style.overflow = "auto";
+            document.html.style.overflow = "auto";
+        });
+    </script>
+</body>
+
+</html>
