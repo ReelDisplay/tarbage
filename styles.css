@@ -65,12 +65,12 @@ section {
 
 #home {
     background-color: #59405C;
-    background-image: url("./Tarbage_HomeScreen_.jpeg");
+    background-image: url("Tarbage_HomeScreen_.jpeg");
 }
 
 #about {
     background-color: #ED6663;
-    background-image: url("./Tarbage_TheProblem_.png");
+    background-image: url("Tarbage_TheProblem_.png");
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -84,14 +84,14 @@ section {
     left: 0;
     width: 100%;
     height: 200px; /* Adjust the height as needed */
-    background-image: url("./Tarbage_trash_pattern_.jpeg");
+    background-image: url("Tarbage_trash_pattern_.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #product {
     background-color: #B52B65;
-    background-image: url("./Tarbage_TheSolution_.jpg");
+    background-image: url("Tarbage_TheSolution_.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     filter: sepia(50%) hue-rotate(330deg);
