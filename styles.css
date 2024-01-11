@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+div, section, span, ul, li, a, header {
+    box-sizing: border-box;
+}
+
+/*css reset*/
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: relative;
+    z-index: 999;
+}
+
+header img {
+    width: 120px;
+    height: 120px;
+}
+
+#menu {
+    background-color: hsl(203, 24%, 43%); /* Set your desired background color */
+    padding: 10px; /* Add some padding for better visibility */
+}
+
+#menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px; /* Adjust margin as needed */
+}
+
+#menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px; /* Adjust padding as needed */
+    background-color: hsl(203, 24%, 43%);
+}
+
+#menu li a:hover {
+    background-color: hsl(101, 24%, 25%);
+}
+
+section {
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+#home {
+    background-color: #59405C;
+    background-image: url("./Tarbage_HomeScreen_.jpeg");
+}
+
+#about {
+    background-color: #ED6663;
+    background-image: url("./Tarbage_TheProblem_.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#about::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    background-image: url("./Tarbage_trash_pattern_.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#product {
+    background-color: #B52B65;
+    background-image: url("./Tarbage_TheSolution_.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: sepia(50%) hue-rotate(330deg);
+}
+
+#partners {
+    background-color: #3C2C3E;
+}
+
+#contact {
+    background-color: #B52B65;
+}
+
+.circle {
+    width: 500px; /* Adjust size as needed */
+    height: 500px; /* Adjust size as needed */
+    border-radius: 50%; /* Make it a circle */
+    background-color: #59405C;
+    position: absolute;
+    top: 50%; /* Adjust position from top */
+    right: 5%; /* Move to the middle right */
+    transform: translate(0%, -50%);
+    cursor: pointer;
+    overflow: hidden; /* Clip the image within the circle */
+}
+
+.circle img {
+    width: 80%; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove default inline behavior */
+    margin: 4% 15%; /* Center the image vertically and horizontally */
+    animation: shake 2s infinite; /* Shake animation */
+}
+
+.circle img:hover {
+    animation-play-state: paused; /* Pause the animation on hover */
+}
+
+.contact-container {
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+}
+
+.contact-container h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-container p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icon {
+    margin-bottom: 10px;
+}
+
+.contact-details {
+    text-align: left;
+}
+
+.contact-details p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25%, 75% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+}
